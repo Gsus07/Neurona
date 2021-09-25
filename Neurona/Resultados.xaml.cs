@@ -18,7 +18,7 @@ namespace Neurona
     /// <summary>
     /// Lógica de interacción para Resultados.xaml
     /// </summary>
-    public partial class Resultados : UserControl
+    public partial class Resultados 
     {
         public Resultados()
         {

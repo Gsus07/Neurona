@@ -7,6 +7,12 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="ComparacionDatos.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ErrorEntrnamiento.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Resultados.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -15,6 +21,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="ComparacionDatos.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ErrorEntrnamiento.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>

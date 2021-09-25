@@ -4,10 +4,15 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:viewModels="clr-namespace:Neurona.Modelos.ViewModels"
+        
         xmlns:local="clr-namespace:Neurona"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    
+
+    <Window.DataContext>
+        <viewModels:NeuronaViewModel />
+    </Window.DataContext>
+
     <Grid x:Name="MainGrid">
         <local:Resultados />
 
